@@ -7,6 +7,6 @@ public class Boat extends Vehicle
 
 	public String doStuff()
 	{
-		return ("je suis " + this.brand + " et je fais glou glou");
+		return ("je suis " + this.getBrand() + " et je fais glou glou");
 	}
 }
