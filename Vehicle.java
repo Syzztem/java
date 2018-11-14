@@ -29,8 +29,5 @@ public abstract class Vehicle
 		return this.kilometers;
 	}
 
-	public abstract String doStuff()
-	{
-		return "";
-	}
+	public abstract String doStuff();
 }
