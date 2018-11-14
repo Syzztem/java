@@ -29,7 +29,7 @@ public abstract class Vehicle
 		return this.kilometers;
 	}
 
-	public String doStuff()
+	public abstract String doStuff()
 	{
 		return "";
 	}
